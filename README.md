@@ -7,7 +7,7 @@ To use this program, you need a C++ compiler that supports the standard librarie
 Include the necessary header files:
 
 ```bash
-git clone https://github.com/giruu/Mobile-Messaging-API.git
+git clone https://github.com/giruu/Word-Game-in-C-plus.git
 ```
 Navigate to the cloned directory:
 
@@ -28,7 +28,7 @@ cd Host-Up-Alert
 Compile and run the program using your C++ compiler.
 
 **Code Analysis**
-Inputs
+* Inputs
 * User input for various options in the game, such as choosing single-player or multiplayer mode, entering words, and selecting options from the menu.
 * The program reads data from a dictionary file called dic.txt.
 
