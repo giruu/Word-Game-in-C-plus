@@ -1,4 +1,5 @@
 **Word Game Program**
+
 This C++ program implements a word game where players can play in single-player or multiplayer mode. It includes features like checking if entered words are correct based on a dictionary file, keeping track of scores, and providing options for help and about the game.
 
 **Usage**
