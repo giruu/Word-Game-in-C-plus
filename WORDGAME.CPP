@@ -1,3 +1,43 @@
+/**
+ * This code snippet is a C++ program that implements a word game. It includes a class called 'mode' with various member functions that handle different aspects of the game, such as single player mode, multiplayer mode, help mode, and about mode. The program allows players to enter words and checks if they are correct based on a dictionary file. It also keeps track of scores and provides options to go back to the main menu or quit the game.
+ *
+ * Example Usage:
+ * #include<iostream.h>
+ * #include<conio.h>
+ * #include<string.h>
+ * #include<stdlib.h>
+ * #include<stdio.h>
+ * #include<iomanip.h>
+ * #include<fstream.h>
+ *
+ * // Code snippet goes here
+ *
+ * void main()
+ * {
+ *     clrscr();
+ *     mode a;
+ *     a.menu();
+ *     getch();
+ * }
+ *
+ * Code Analysis:
+ * Inputs:
+ * - User input for various options in the game, such as choosing single player or multiplayer mode, entering words, and selecting options from the menu.
+ * - The program reads data from a dictionary file called 'dic.txt'.
+ *
+ * Flow:
+ * 1. The program starts by displaying a menu with different options for the game.
+ * 2. The user can choose between single player mode, multiplayer mode, help mode, about mode, or quit the game.
+ * 3. In single player mode, the user can play the game by entering words and checking if they are correct based on the dictionary file.
+ * 4. In multiplayer mode, the user can choose between time battle or number of players. In time battle, the user has 10 chances to enter words. In number of players mode, the user can enter words and take turns with another player.
+ * 5. The program keeps track of scores and provides options to go back to the main menu or quit the game.
+ *
+ * Outputs:
+ * - The program displays various messages and prompts to guide the user through the game.
+ * - It also displays the correct word and the points earned by the player.
+ * - The program can write user suggestions to a file called 'suggest.txt'.
+ * - In multiplayer mode, the program indicates which player's turn it is.
+ */
 #include<iostream.h>
 #include<conio.h>
 #include<string.h>
